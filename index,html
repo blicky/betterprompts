@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BetterPrompts - Tools for creating better prompts for AI</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+    }
+    h1 {
+      text-align: center;
+      margin-top: 30px;
+      margin-bottom: 10px;
+    }
+    p {
+      text-align: center;
+      margin-top: 0;
+    }
+    .links {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .link {
+      width: 90%;
+      max-width: 500px;
+      margin: 10px;
+      padding: 10px;
+      border-radius: 5px;
+      background-color: #f2f2f2;
+      text-align: center;
+    }
+    .link-title {
+      font-weight: bold;
+    }
+  </style>
+  <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-2LHEJSLY4N"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-2LHEJSLY4N');
+</script>
+</head>
+
+<body>
+  <h1>BetterPrompts 💡</h1>
+  <p>Tools for creating better prompts for AI</p>
+  <ul class="links">
+    <li class="link">
+      <div class="link-title">OpenAI GPT-3 Playground</div>
+      <div class="link-description">A web-based interface for interacting with GPT-3, OpenAI's powerful language model.</div>
+      <a href="https://beta.openai.com/playground/" class="link-url">https://beta.openai.com/playground/</a>
+    </li>
+    <li class="link">
+      <div class="link-title">Hugging Face Transformers</div>
+      <div class="link-description">A library of pre-trained models and tools for building and training your own language models.</div>
+      <a href="https://huggingface.co/transformers/" class="link-url">https://huggingface.co/transformers/</a>
+    </li>
+    <li class="link">
+      <div class="link-title">Talk to Transformer</div>
+      <div class="link-description">A web app that lets you generate text using GPT-2, OpenAI's previous language model.</div>
+      <a href="https://talktotransformer.com/" class="link-url">https://talktotransformer.com/</a>
+    </li>
+  </ul>
+</body>
+</html>
